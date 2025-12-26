@@ -1,11 +1,11 @@
-import Image from "../../assets/img1.jpg";
+import img1 from "../../assets/img1.jpg";
 import { FaArrowRight } from "react-icons/fa6";
 
 const RightCard = () => {
   return (
     <div className="h-[620px] overflow-hidden relative w-[360px] rounded-4xl">
       <img
-        src={Image}
+        src={img1}
         alt="Section Image"
         className="w-full h-full object-cover"
       />
@@ -15,7 +15,7 @@ const RightCard = () => {
         </h2>
         <div>
           <p
-            className="text-xl leading-normal text-white font-medium mb-10
+            className="text-xl leading-relaxed text-white font-medium mb-10
                   "
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius,

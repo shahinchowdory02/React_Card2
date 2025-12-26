@@ -5,6 +5,8 @@ const RightContent = () => {
   return (
     <div className="flex gap-6">
       <RightCard />
+      <RightCard />
+      <RightCard />
     </div>
   );
 };
